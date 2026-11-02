@@ -2,22 +2,23 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  width: 200px;
   background-color: #5F7A63;
 }
 
-ul li {
-  float: left;
-}
-
-ul li a {
+li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
-ul li a:hover {
+li a:hover {
   background-color: #455a48;
+}
+
+.pfp {
+    width: 120px;
+    height: auto;
+    border-radius: 15%;
 }
