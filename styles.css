@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 1.125rem;
   line-height: 1.6;
 }
@@ -60,4 +60,39 @@ nav a[aria-current="page"] {
   color: white;
   text-decoration: none;
   font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #5F7A63;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #455a48;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 32px 0;
+}
+
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15%;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 250px;
 }
