@@ -96,3 +96,19 @@ nav a[aria-current="page"] {
   flex: 1;
   min-width: 250px;
 }
+
+footer {
+  text-align: center;
+  padding: 24px 32px;
+  background-color: #5F7A63;
+  color: white;
+}
+
+footer address {
+  font-style: normal;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
