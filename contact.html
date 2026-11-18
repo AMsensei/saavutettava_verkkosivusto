@@ -25,10 +25,49 @@
                 </ul>
             </nav>
     </header>
-<!--
+
     <main id="main">
-        <h1>Hi, I'm Aliya, a manga and original character artist</h1>
+        <h1>Contact</h1>
+        <p>Interested in a commission or a fanart? Fill in the form below and I’ll get back to you within a few days.</p>
+        <section>
+            <h2>Send me a message</h2>
+            <form action="#" id="contact_form"> 
+
+                <div class="field">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+
+                <div class="field">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="request">Type of request</label>
+                    <select name="request" id="request">
+                        <option disabled selected value="">Select an option</option>
+                        <option value="character">Original character</option>
+                        <option value="fanart">Fanart</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="button">Send message</button>
+                <p id="form-status" role="status"></p>
+            </form>
+        </section>
     </main>
--->
+<script src="script.js"></script>
 </body>
 </html>
