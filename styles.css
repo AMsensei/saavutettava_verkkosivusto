@@ -73,7 +73,7 @@ nav a[aria-current="page"] {
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   background-color: #455a48;
 }
 
@@ -98,7 +98,11 @@ nav a[aria-current="page"] {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
   padding: 24px 32px;
   background-color: #5F7A63;
   color: white;
@@ -111,4 +115,18 @@ footer address {
 footer a {
   color: white;
   text-decoration: none;
+}
+
+.cta {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.link_cta {
+  color: #B03A5B;
+}
+
+.link_cta:hover {
+  color: #8A2D45;
+  text-decoration-thickness: 2px;
 }
